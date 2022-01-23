@@ -203,6 +203,7 @@ button:focus {
 .hiring-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 main {
@@ -213,34 +214,41 @@ main {
   display: flex;
   flex-direction: row;
   border-radius: 10px;
+  margin: 2rem 0.25rem;
 }
 
 .hiring-header {
   font-family: "Outfit", sans-serif;
   font-size: 1.3rem;
   padding: 0.75rem;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color:white;
 }
 
 .right-side {
-  padding: 1rem 0rem;
-  padding-right: 1.25rem;
   background-color: aliceblue;
-  align-items: center;
   font-size: 0.9rem;
-  width: 50vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .left-side {
   background-color: #404040;
   color: white;
   display: flex;
+  padding: 5vh 5vw;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem 0rem;
 }
 
 .location {
@@ -303,4 +311,15 @@ main {
   .right-side {
     font-size: 1rem;
   }
+
+  .hiring-container{
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .right-side{
+    width: 20vw;
+  }
+
+
 }
