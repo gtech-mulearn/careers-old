@@ -207,6 +207,7 @@ main {
 .hiring-card {
   display: flex;
   flex-direction: row;
+  border-radius: 10px;
 }
 
 .hiring-header {
@@ -216,6 +217,8 @@ main {
 }
 
 .right-side {
+  padding: 1rem 0rem;
+  background-color: aliceblue;
   align-items: center;
   font-size: 0.9rem;
   width: 50vw;
@@ -247,4 +250,26 @@ main {
 .company-logo {
   width: 7rem;
   border-radius: 5px;
+}
+
+.qualification {
+  font-size: 1.35rem;
+  margin-left: 0.8rem;
+  font-weight: 500;
+}
+
+.location p{
+  margin-top: 0.25rem;
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+  .left-side {
+    padding: 3rem 2rem;
+  }
+
+  .right-side {
+    font-size: 1rem;
+  }
 }
