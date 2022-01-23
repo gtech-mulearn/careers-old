@@ -247,22 +247,37 @@ main {
   font-weight: 500;
 }
 
+.apply:hover {
+  box-shadow: 0px 0px 5px #e7e6d6;
+}
+
 .company-logo {
   width: 7rem;
   border-radius: 5px;
 }
 
 .qualification {
-  font-size: 1.35rem;
-  margin-left: 0.8rem;
+  font-size: 1.45rem;
+  margin-left: 1rem;
   font-weight: 500;
 }
 
-.location p{
+.location{
+  margin-top: 2rem;
+}
+
+.location p {
   margin-top: 0.25rem;
 }
 
+.loc-icon {
+  color: #404040;
+}
 
+.loc-icon:hover {
+  background-color: aliceblue;
+  color: #404040;
+}
 
 @media only screen and (min-width: 1000px) {
   .left-side {
